@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 print(ord('p'))
 print(ord('P'))
 c1 = ([1, 2] == [1, 2])
@@ -36,7 +38,8 @@ for n in range(20):
         print(n)
 print('------------------')
 for n in range(20):
-    if '3' in str(n) or '6' in str(n) or '9' in str(n):
+#     if '3' in str(n) or '6' in str(n) or '9' in str(n):
+    if n%3 is 0:
         print('!')
     else:
         print(n)
