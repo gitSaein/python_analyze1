@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 for _ in range(3):
     print("아주 잘 했어요!")
 for i, n in enumerate(range(3)):
