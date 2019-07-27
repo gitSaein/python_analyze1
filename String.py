@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 food = '''
 line1
 linw2
